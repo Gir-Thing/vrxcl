@@ -1432,7 +1432,7 @@ void ChangeClass(char *playername, int newclass, int msgtype) {
         player->myskills.speciality_points = 2 * player->myskills.level;
 
         if (generalabmode->value && player->myskills.class_num == CLASS_WEAPONMASTER)
-            player->myskills.weapon_points = 6 * player->myskills.level;
+            player->myskills.weapon_points = 8 * player->myskills.level;
         else
             player->myskills.weapon_points = 4 * player->myskills.level;
 
